@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundempty">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Order App"
+        android:textColor="@color/red"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="10dp"
+        android:text="Please choose a restaurant and enjoy!"
+        android:textColor="@color/slate_gray"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtSearchRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/et_custom"
+        android:drawableEnd="@drawable/ic_baseline_search_24"
+        android:hint="Search for Restaurants"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_below="@+id/edtSearchRestaurant"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

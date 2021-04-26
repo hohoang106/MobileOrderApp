@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631196067280",
+    "firebase_url": "https://orderapp-7388f-default-rtdb.firebaseio.com",
+    "project_id": "orderapp-7388f",
+    "storage_bucket": "orderapp-7388f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631196067280:android:96579c31e23a84846c85d5",
+        "android_client_info": {
+          "package_name": "com.sh.orderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631196067280-driv5sat5kmni5790dchi34ngtdqpq3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZaF4w0WduC9Sj3RiUv-Vzp55_UJ7nCGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631196067280-driv5sat5kmni5790dchi34ngtdqpq3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

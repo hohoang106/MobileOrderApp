@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvAddNewCustomerDlg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/dim_gray"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="Food Management"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imvImageFoodDlg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/camera_picture" />
+
+    <EditText
+        android:id="@+id/edtNameFoodDlg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/edt_custom"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/edtPriceFoodDlg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/edt_custom"
+        android:hint="Price"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancelFoodDlg"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryMo"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnAgreeFoodDlg"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:background="@color/dim_gray"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

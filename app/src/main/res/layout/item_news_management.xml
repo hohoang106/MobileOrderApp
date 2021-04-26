@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/tvNameNewsManageItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text="1. Radio Online 01/03/2021"
+            android:textColor="@color/colorTextChild"
+            android:shadowColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvDescriptionNewsManageItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fallbackLineSpacing="true"
+            android:lineHeight="15dp"
+            android:lineSpacingExtra="15dp"
+            android:maxLines="4"
+            android:paddingRight="3dp"
+            android:text="Google Translate is a free multilingual neural machine translation service developed by Google, to translate text and websites from one language into another."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btnUpdateNewsManage"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/monsoon"
+                android:gravity="center"
+                android:text="Edit"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/btnDeleteNewsManage"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorVinId"
+                android:gravity="center"
+                android:text="Delete"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

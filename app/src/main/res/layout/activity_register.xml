@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Order App"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLogin"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:text="Welcome to Order App"
+        android:textColor="@color/goldens"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtUsernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtUsernameRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtFullNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtPasswordRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Full Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtAddressRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtFullNameRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Address"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/edtPhoneNumberRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtAddressRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Phone number"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtPhoneNumberRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/g_ed_background"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spnTypeUser"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edtEmailRegister"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/spnTypeUser"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/g_button_background"
+        android:text="Register"
+        android:textColor="@color/colorTextChild" />
+
+    <ProgressBar
+        android:id="@+id/a2_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="24dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

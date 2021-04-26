@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OrderApp</string>
+    <string name="fullname">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="status">Status</string>
+    <string name="delete">Delete</string>
+    <string name="approve">Approve</string>
+</resources>
